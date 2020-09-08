@@ -15,7 +15,7 @@ def create():
     email.send_keys('Your Email id for login')
 
     passw =  browser.find_element_by_xpath('//*[@id="password"]')
-    passw.send_keys('password')
+    passw.send_keys('your password')
 
 
     passw =  browser.find_element_by_xpath('//*[@id="login"]/form/div[4]/input[9]')
